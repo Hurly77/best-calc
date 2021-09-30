@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+}
+
+button {
+	@apply h-12 m-1 bg-white rounded-md hover:bg-gray-300 active:bg-gray-400;
+}
+
+button[value='='] {
+	@apply text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700;
+}
+
+div[id='buttons'] {
+	@apply grid grid-cols-4 grid-rows-4;
+}
+
+div[id='container'] {
+	@apply container flex justify-center px-16 pt-10;
+}
+
+div[id='body'] {
+	@apply flex flex-col px-10 py-5 bg-gray-200 rounded-md;
+}
+
+div[id='screen'] {
+	@apply flex flex-col w-full;
+}
+
+code {
+	@apply flex flex-col w-full h-32 p-3 overflow-hidden text-2xl bg-white rounded-xl;
+}
+
+pre[id='res'] {
+	@apply ml-5 text-red-500;
+}
+
+input {
+	@apply w-full h-16 p-3 my-3 rounded-md;
+}
