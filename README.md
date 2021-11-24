@@ -22,3 +22,5 @@ yarn dev
 ```
 
 Then use `live server` ext in vscode or just manually open it in the browser.
+
+https://github.com/Hurly77/best-calc/blob/main/docs/index.html
